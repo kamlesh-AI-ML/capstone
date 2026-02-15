@@ -1,9 +1,31 @@
-# capstone
+# Repository Introduction
 ### Hi there 👋  
  
 * 🔭 AI / ML repository and projects involving demand forecasting, predictive modeling, and optimization  
 * 🌱 Utilizing Data Engineering to build scalable, reliable data pipelines for ML applications  
 * 🤝 I’m looking to collaborate on new ideas in the field of Artificial Intelligence, Machine Learning, and Data-Driven Solutions  
+
+---
+
+### BBO Optimization Project
+
+Machine Learning capstone project focused on optimizing high-dimensional black-box functions using Bayesian Optimization techniques. The repository includes implementation details, experimentation results, and visualizations for evaluating and selecting query points efficiently.
+## Project Details
+
+Non Technical Summary - This project addresses optimization problems where evaluations are expensive and the underlying system behaves as a “black box.” Examples include improving medical treatments with limited patient trials, tuning complex engineering processes, or optimizing policies where each experiment consumes significant time or resources.
+To solve this, I implemented a Bayesian Optimization framework that learns from prior evaluations and strategically balances:
+#### Exploration — testing new, uncertain regions
+#### Exploitation — refining solutions that already appear promising
+Unlike rigid rule-based search methods, this adaptive approach updates decisions dynamically based on observed evidence. The methodology is directly applicable to:
+Hyperparameter tuning
+A/B testing
+Resource allocation uncertainty
+
+Institution: Imperial College London
+
+Course: Professional Certificate in Machine Learning and AI
+
+Duration: December 2025 – January 2026
 
 ---
 
@@ -22,9 +44,17 @@
 
 ---
 
-### 📊 GitHub Stats  
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=kamlesh-AI-ML&show_icons=true&theme=tokyonight)  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kamlesh-AI-ML&layout=compact&theme=tokyonight)  
+### Repository Structure
+
+src / – Primary Jupyter Notebook showcasing the end-to-end optimization workflow, including model setup, experimentation, and result analysis.
+
+data / – Directory containing the input–output datasets used throughout the optimization process.
+
+results / - 
+
+datasheet.md – Datasheet outlining dataset characteristics, provenance, and known limitations.
+
+modelcard.md – Model card detailing the Bayesian optimization approach, design choices, assumptions, and constraints.
 
 ---
 
