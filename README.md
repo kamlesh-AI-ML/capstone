@@ -52,7 +52,7 @@ data / – Directory containing the input–output datasets used throughout the 
 
 results / - 
 
-datasheet.md – Datasheet outlining dataset characteristics, provenance, and known limitations.
+DATASHEET.md – Datasheet outlining dataset characteristics, provenance, and known limitations.
 
 modelcard.md – Model card detailing the Bayesian optimization approach, design choices, assumptions, and constraints.
 
