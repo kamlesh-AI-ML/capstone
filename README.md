@@ -54,7 +54,7 @@ results / -
 
 DATASHEET.md – Datasheet outlining dataset characteristics, provenance, and known limitations.
 
-modelcard.md – Model card detailing the Bayesian optimization approach, design choices, assumptions, and constraints.
+MODELCARD.md – Model card detailing the Bayesian optimization approach, design choices, assumptions, and constraints.
 
 ---
 
