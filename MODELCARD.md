@@ -50,7 +50,7 @@ The strategy evolved across three distinct phases to manage the 13-round query b
     * **Kernel Switching:** Experimented with varying length-scales to capture local volatility.
     * **LLM-Augmented Analysis:** Utilized LLMs to critique query history and suggest candidate coordinates in sparse 8D spaces.
 
-### Phase 3: Pure Exploitation (Rounds 11–13)
+### Phase 3: Pure Exploitation (Rounds 11–13) (Planned)
 * **Goal:** Converge on the maximum.
 * **Method:** Low-variance $\text{EI}$ and manual extrapolation.
 * **Decision Logic:** Queries were placed strictly within "anchored" high-value regions to squeeze out final improvements.
@@ -82,7 +82,6 @@ The model interprets the search space through two primary lenses:
 * **Data Privacy:** This framework processes purely numerical objective values; no PII (Personally Identifiable Information) or sensitive data is involved.
 * **Bias:** The model is "biased" only by its kernel choice and prior, which are explicitly stated.
 
----
 
-## 💬 Author’s Reflection
-The strength of this model lies in its **probabilistic humility**. Rather than forcing a single curve-fit, it maintains a distribution over possible functions. The transition from automated BO (Phase 1) to "Human-in-the-loop" refinement (Phase 3) was essential to navigate the sparsity of the 8D search space where pure GP models often struggle.
+
+
