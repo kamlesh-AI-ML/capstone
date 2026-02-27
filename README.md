@@ -47,10 +47,10 @@ Duration: December 2025 – January 2026
 ### Repository Structure
 
 src / – Primary Jupyter Notebook showcasing the end-to-end optimization workflow, including model setup, experimentation, and result analysis.
+Also includes input data and output resultss from the BB model.
 
 data / – Directory containing the input–output datasets used throughout the optimization process.
 
-results / - 
 
 DATASHEET.md – Datasheet outlining dataset characteristics, provenance, and known limitations.
 
